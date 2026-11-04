@@ -965,7 +965,8 @@ h5 {
     box-sizing: border-box;
 
     border-bottom: 1px solid rgb(168, 164, 164);
-    background: var(--header-bg, #0b0d10);
+    /* background: var(--header-bg, #0b0d10); */
+    background-color: yellowgreen;
 }
 
 }
@@ -1115,6 +1116,14 @@ h5 {
      /* margin-top: 0.4rem;  */
     
 }
+.vb h2{
+  padding-top: 0.5rem;
+  color: white;
+}
+
+.theme-btn{
+  margin-top: 0.01rem;
+}
 }
 
 /* Hide menu on screens above 360px */
@@ -1153,6 +1162,7 @@ h5 {
 
 .vb h2{
   padding-top: 0.5rem;
+  color: var(--btn-bg);
 }
 
 .vb span{
@@ -1238,7 +1248,7 @@ h5 {
   /* width: 100%; */
   background-color: rgb(20, 46, 20);
   padding: 0.4rem;
-  height: 7.5vh;
+  height: 6.6vh;
   justify-content: center;
   border: 1px solid rgb(20, 46, 20);
   border-radius: 0.5rem;
