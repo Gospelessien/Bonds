@@ -1124,6 +1124,22 @@ h5 {
 .theme-btn{
   margin-top: 0.01rem;
 }
+
+.ppp{
+  /* width: 100%; */
+  background-color: rgb(20, 46, 20);
+  padding: 0.4rem;
+  height: 6.6vh;
+  justify-content: center;
+  border: 1px solid rgb(20, 46, 20);
+  border-radius: 0.5rem;
+}
+
+.ppp svg{
+  width: clamp(18px, 2vw, 30px);
+  height: clamp(18px, 2vw, 30px);
+  color: greenyellow;
+}
 }
 
 /* Hide menu on screens above 360px */
