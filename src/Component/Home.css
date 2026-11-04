@@ -1096,6 +1096,7 @@ h5 {
   width: clamp(18px, 2vw, 30px);
   height: clamp(18px, 2vw, 30px);
   color: greenyellow;
+  margin-top: 0.5rem;
 }
   
 
@@ -1155,6 +1156,7 @@ h5 {
   width: clamp(18px, 2vw, 30px);
   height: clamp(18px, 2vw, 30px);
   color: greenyellow;
+  margin-top: 0.5rem;
 }
 }
 
