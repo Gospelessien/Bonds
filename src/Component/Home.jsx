@@ -80,13 +80,7 @@ const Home = () => {
       icon: <FaLinkedinIn />,
       link: "https://www.linkedin.com/in/yourusername",
       className: "linkedin",
-    },
-    {
-      name: "GitHub",
-      icon: <FaGithub />,
-      link: "https://github.com/yourusername",
-      className: "github",
-    },
+    },    
     {
       name: "WhatsApp",
       icon: <FaWhatsapp />,
