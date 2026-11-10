@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import "./Home.css"
 
 import { FiSun, FiMoon } from "react-icons/fi"
-import { SiMongodb, SiJavascript } from "react-icons/si"
+import { SiMongodb, SiJavascript, SiExpress, SiNodedotjs, SiTailwindcss } from "react-icons/si"
 
 import {
   FaPaperPlane,
@@ -577,26 +577,32 @@ const Home = () => {
 
               <div className="clark">
                 <div className="fofo"><FaCode /></div>
-                <h2>HTML5 & CSS3</h2>
-                <p>Building structured, responsive and visually appealing web interfaces with modern HTML and CSS.</p>
+                <h2>HTML5 & CSS3</h2>                
               </div>
 
               <div className="clark">
                 <div className="fofo"><SiMongodb /></div>
-                <h2>MongoDB</h2>
-                <p>Designing and managing databases with efficient data storage, retrieval and organization using MongoDB.</p>
+                <h2>MongoDB</h2>                
               </div>
 
               <div className="clark">
                 <div className="fofo"><SiJavascript /></div>
-                <h2>Javascript (ES6+)</h2>
-                <p>Writing dynamic, interactive and functional web applications using modern Javascript.</p>
+                <h2>Javascript (ES6+)</h2>                
               </div>
 
               <div className="clark">
-                <div className="fofo"><FaMobile /></div>
-                <h2>Mobile-First Design</h2>
-                <p>Creating responsive websites that deliver seamless experiences across mobile, tablet and desktop devices.</p>
+                <div className="fofo"><SiTailwindcss /></div>
+                <h2>Mobile-First Design</h2>                
+              </div>
+
+              <div className="clark">
+                <div className="fofo"><SiExpress /></div>
+                <h2>Mobile-First Design</h2>                
+              </div>
+
+              <div className="clark">
+                <div className="fofo"><SiNodedotjs/></div>
+                <h2>Mobile-First Design</h2>                
               </div>
 
             </div>
