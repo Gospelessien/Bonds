@@ -11,6 +11,72 @@
     text-align: center;
 
 }
+
+.jss svg{
+  color: #0a66c2;
+  width: clamp(18px, 2vw, 34px);
+  height: clamp(18px, 2vw, 34px);
+  
+  position: relative;
+  left: 0.24rem;
+  top: 0.2rem;
+  
+}
+
+.jss{
+  width: clamp(0.8rem, 80vw, 2rem);    
+ /* min-width: 70rem; */
+ min-height: clamp(10px, 40vw, 13px);
+ /* padding: clamp(1rem, 4vw, 1.5rem); */
+    /* border: 1px solid rgb(168, 164, 164); */
+    border-radius: clamp(6px, 1.5vw, 9px);
+    background-color: #333e48;
+  border:  1px solid #333e48;
+    box-sizing: border-box;    
+}
+
+.jsa{
+  width: clamp(0.8rem, 80vw, 2rem);    
+ /* min-width: 70rem; */
+ min-height: clamp(10px, 40vw, 13px);
+ /* padding: clamp(1rem, 4vw, 1.5rem); */
+    /* border: 1px solid rgb(168, 164, 164); */
+    border-radius: clamp(6px, 1.5vw, 9px);
+    background-color: rgb(69, 80, 46);
+  border:  1px solid (69, 80, 46);
+    box-sizing: border-box;    
+}
+
+.jsa svg{
+  color: yellowgreen;
+  width: clamp(18px, 2vw, 34px);
+  height: clamp(18px, 2vw, 34px);
+  position: relative;
+  left: 0.27rem;
+  top: 0.2rem;
+}
+
+
+.folop{
+   width: clamp(7rem, 80vw, 20rem);    
+ /* min-width: 70rem; */
+ min-height: clamp(70px, 25vw, 99px);
+    padding: clamp(1rem, 2vw, 2rem);
+    border: 1px solid rgb(168, 164, 164);
+    border-radius: clamp(10px, 1.5vw, 18px);
+    box-sizing: border-box;    
+    background-color: rgb(23, 26, 23);
+  overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
 .vicl h1{
     padding-left: 1rem;
 }
@@ -106,6 +172,18 @@ h4{
     color: yellowgreen;
 }
 
+.scx h2{
+  line-height: 1.1;
+}
+
+.scx{
+  margin-top: 4rem;
+}
+
+.cfq{
+  color: yellowgreen;
+}
+
 .volo{
     margin-top: 3rem;
 }
@@ -188,7 +266,7 @@ h4{
 }
 
 .fort h2{
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
@@ -470,9 +548,9 @@ h5 {
 }
 
 .fort h2,
-.fort h5,
+.fort h3,
 .fort h4 {
-  color: #111827;
+  color: white;
 }
 
 .jh {
@@ -1452,7 +1530,7 @@ h5 {
 }
 
 .clark{
- width: clamp(7rem, 80vw, 11rem);    
+ width: clamp(9rem, 85vw, 13.5rem);    
  /* min-width: 70rem; */
  min-height: clamp(70px, 25vw, 90px);
     padding: clamp(1rem, 2vw, 2rem);
@@ -1464,6 +1542,57 @@ h5 {
     word-break: break-word;
     white-space: normal;
 }
+.folop{
+   width: clamp(7rem, 80vw, 20rem);    
+ /* min-width: 70rem; */
+ min-height: clamp(70px, 25vw, 99px);
+    padding: clamp(1rem, 2vw, 2rem);
+    border: 1px solid rgb(168, 164, 164);
+    border-radius: clamp(10px, 1.5vw, 18px);
+    box-sizing: border-box;    
+    background-color: rgb(23, 26, 23);
+  overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+    color: white;
+    text-align: left;
+    flex-direction: column;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+}
+.jss{
+  width: clamp(0.8rem, 80vw, 2rem);    
+ /* min-width: 70rem; */
+ min-height: clamp(10px, 40vw, 13px);
+ /* padding: clamp(1rem, 4vw, 1.5rem); */
+    /* border: 1px solid rgb(168, 164, 164); */
+    border-radius: clamp(6px, 1.5vw, 9px);
+    background-color: #333e48;
+  border:  1px solid #333e48;
+    box-sizing: border-box;    
+    position: relative;
+  right: 5.7rem;
+}
+
+.jsa{
+  width: clamp(0.8rem, 80vw, 2rem);    
+  position: relative;
+  right: 5rem;
+ /* min-width: 70rem; */
+ min-height: clamp(10px, 40vw, 13px);
+ /* padding: clamp(1rem, 4vw, 1.5rem); */
+    /* border: 1px solid rgb(168, 164, 164); */
+    border-radius: clamp(6px, 1.5vw, 9px);
+    background-color: rgb(69, 80, 46);
+  border:  1px solid (69, 80, 46);
+    box-sizing: border-box;    
+}
+
+.folop > div:nth-child(2){
+  padding-right: 4.5rem;
+}
+
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1475,6 +1604,28 @@ h5 {
     transition: none;
   }
 
+}
+
+@media (max-width:460px) {
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .clark{
+ width: clamp(7rem, 85vw, 10.4rem);    
+ /* min-width: 70rem; */
+ min-height: clamp(70px, 25vw, 90px);
+    padding: clamp(1rem, 2vw, 2rem);
+    border: 1px solid rgb(168, 164, 164);
+    border-radius: clamp(10px, 1.5vw, 18px);
+    box-sizing: border-box;    
+    background-color: rgb(46, 54, 46);
+  overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+}
 }
 
 
@@ -1537,7 +1688,7 @@ h5 {
 }
 
 .clark{
- width: clamp(10rem, 80vw, 17rem);    
+ width: clamp(13rem, 90vw, 23rem);    
  /* min-width: 70rem; */
  min-height: clamp(70px, 25vw, 90px);
     padding: clamp(1rem, 2vw, 2rem);
@@ -1551,3 +1702,5 @@ h5 {
 }
 
 }
+
+

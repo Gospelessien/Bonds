@@ -538,25 +538,43 @@ const Home = () => {
         <div className="pw"></div>
 
         {/* CONTACT SECTION */}
+          <div className='scx'>
+           <h2>Let's Build <br /> <span className="cfq">Something Great</span></h2>
+           <p>Currently open to new projects and collaborations. <br />
+            whether it's a MERN app  or a custom UI, my inbox <br /> is always open.
 
+           </p>
+          
         <div className="fort">
 
-          <div>
-            <h2>Let's build something together</h2>
-            <h5>
-              Tell me about your project and I'll build it for you in hours.
-            </h5>
+         
+
+          <div className='folop'>
+            <div className="jss">
+                <FaEnvelope/>
+            </div>
+            <div>
+            <h3>EMAIL ME</h3>
+            <h4>
+              gospelessien29@gmail.com
+            </h4>
+            </div>
           </div>
 
-          <div>
-            <div className="jh">
-              <h4>gospelessien29@gmail.com</h4>
+          <div className='folop'>
+            <div className="jsa">
+                <FaWhatsapp/>
             </div>
-
-            <h5>or message me on WhatsApp (07056795523)</h5>
+            <div>
+            <h3>WHATSAPP</h3>
+            <h4>Send a message</h4>
+            </div>
           </div>
 
         </div>
+
+          </div>
+
 
         <div className="pw"></div>
 
